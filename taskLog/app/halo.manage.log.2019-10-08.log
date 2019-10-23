@@ -1,0 +1,327 @@
+2019-10-08 14:27:26.686 [restartedMain] INFO  com.task.application - Starting application on DESKTOP-7NQ821V with PID 1328 (F:\task\target\classes started by ADMIN in F:\task)
+2019-10-08 14:27:26.692 [restartedMain] INFO  com.task.application - No active profile set, falling back to default profiles: default
+2019-10-08 14:27:26.925 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@51196034: startup date [Tue Oct 08 14:27:26 CST 2019]; root of context hierarchy
+2019-10-08 14:27:31.220 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 14:27:31.807 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2f8ef4a2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-08 14:27:32.374 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-10-08 14:27:32.407 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-08 14:27:32.418 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 14:27:32.418 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+2019-10-08 14:27:32.435 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Java/jre1.8.0_161/bin/server;D:/Java/jre1.8.0_161/bin;D:/Java/jre1.8.0_161/lib/amd64;C:\Program Files (x86)\NetSarang\Xftp 6\;E:\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Java\jdk1.8.0_161\bin;D:\Java\jre1.8.0_161\bin;E:\Git\cmd;C:\Program Files\nodejs\;F:\apache-maven-3.5.0\bin;;C:\Program Files\python;C:\Program Files\python\Scripts;;D:\BtSoft\panel\script;C:\Users\ADMIN\AppData\Local\Microsoft\WindowsApps;E:\MySQL\MySQLServer5.6\bin;C:\Users\ADMIN\AppData\Roaming\npm;C:\Users\ADMIN\AppData\Local\GitHubDesktop\bin;D:\eclipse\jee-2019-03\eclipse;;.]
+2019-10-08 14:27:32.591 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 14:27:32.591 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5666 ms
+2019-10-08 14:27:32.719 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-10-08 14:27:32.722 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-10-08 14:27:32.722 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-10-08 14:27:32.722 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-10-08 14:27:32.722 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-10-08 14:27:32.756 [restartedMain] WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: private void com.task.service.task.orderNotify()
+2019-10-08 14:27:32.759 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'task': Unsatisfied dependency expressed through field 'orderServiceImpl'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.task.service.OrderService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-10-08 14:27:32.763 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-10-08 14:27:32.772 [localhost-startStop-1] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:164)
+ com.mysql.jdbc.NonRegisteringDriver$1.run(NonRegisteringDriver.java:93)
+2019-10-08 14:27:32.808 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-10-08 14:27:32.950 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field orderServiceImpl in com.task.service.task required a bean of type 'com.task.service.OrderService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.task.service.OrderService' in your configuration.
+
+2019-10-08 14:46:41.536 [restartedMain] INFO  com.task.application - Starting application on DESKTOP-7NQ821V with PID 10764 (F:\task\target\classes started by ADMIN in F:\task)
+2019-10-08 14:46:41.538 [restartedMain] INFO  com.task.application - No active profile set, falling back to default profiles: default
+2019-10-08 14:46:41.591 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3c6a111c: startup date [Tue Oct 08 14:46:41 CST 2019]; root of context hierarchy
+2019-10-08 14:46:42.488 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 14:46:42.858 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1d4a6bd4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-08 14:46:43.183 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-10-08 14:46:43.194 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-08 14:46:43.204 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 14:46:43.205 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+2019-10-08 14:46:43.212 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Java/jre1.8.0_161/bin/server;D:/Java/jre1.8.0_161/bin;D:/Java/jre1.8.0_161/lib/amd64;C:\Program Files (x86)\NetSarang\Xftp 6\;E:\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Java\jdk1.8.0_161\bin;D:\Java\jre1.8.0_161\bin;E:\Git\cmd;C:\Program Files\nodejs\;F:\apache-maven-3.5.0\bin;;C:\Program Files\python;C:\Program Files\python\Scripts;;D:\BtSoft\panel\script;C:\Users\ADMIN\AppData\Local\Microsoft\WindowsApps;E:\MySQL\MySQLServer5.6\bin;C:\Users\ADMIN\AppData\Roaming\npm;C:\Users\ADMIN\AppData\Local\GitHubDesktop\bin;D:\eclipse\jee-2019-03\eclipse;;.]
+2019-10-08 14:46:43.348 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 14:46:43.348 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1757 ms
+2019-10-08 14:46:43.450 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-10-08 14:46:43.453 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-10-08 14:46:43.454 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-10-08 14:46:43.454 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-10-08 14:46:43.454 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-10-08 14:46:43.937 [restartedMain] WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: private void com.task.service.task.orderNotify()
+2019-10-08 14:46:43.940 [restartedMain] INFO  com.task.service.task - =================【修改订单状态为未收到回调，获取时间为: 300【秒】】===============
+2019-10-08 14:46:43.954 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-10-08 14:46:44.428 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-10-08 14:46:44.477 [restartedMain] INFO  o.s.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2019-10-08 14:46:44.525 [restartedMain] INFO  o.s.jdbc.support.SQLErrorCodesFactory - SQLErrorCodes loaded: [DB2, Derby, H2, HDB, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2019-10-08 14:46:44.528 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'task': Injection of autowired dependencies failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'msg.manage_deal_order' doesn't exist
+### The error may involve com.task.mapper.DealOrderMapper.updataOrderStatus-Inline
+### The error occurred while setting parameters
+### SQL: UPDATE manage_deal_order SET orderStatus = 3 WHERE orderId IN    (SELECT orderId  FROM (   SELECT orderId  FROM manage_deal_order  WHERE createTime   <     SUBDATE(NOW(),INTERVAL ? SECOND)   AND orderStatus = 1   ) AS orderList)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'msg.manage_deal_order' doesn't exist
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'msg.manage_deal_order' doesn't exist
+2019-10-08 14:46:44.528 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-10-08 14:46:44.532 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-10-08 14:46:44.535 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-10-08 14:46:44.551 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-10-08 14:46:44.555 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'task': Injection of autowired dependencies failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'msg.manage_deal_order' doesn't exist
+### The error may involve com.task.mapper.DealOrderMapper.updataOrderStatus-Inline
+### The error occurred while setting parameters
+### SQL: UPDATE manage_deal_order SET orderStatus = 3 WHERE orderId IN    (SELECT orderId  FROM (   SELECT orderId  FROM manage_deal_order  WHERE createTime   <     SUBDATE(NOW(),INTERVAL ? SECOND)   AND orderStatus = 1   ) AS orderList)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'msg.manage_deal_order' doesn't exist
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'msg.manage_deal_order' doesn't exist
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:379)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1344)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:578)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:501)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:395)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1255)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1243)
+	at com.task.application.main(application.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'msg.manage_deal_order' doesn't exist
+### The error may involve com.task.mapper.DealOrderMapper.updataOrderStatus-Inline
+### The error occurred while setting parameters
+### SQL: UPDATE manage_deal_order SET orderStatus = 3 WHERE orderId IN    (SELECT orderId  FROM (   SELECT orderId  FROM manage_deal_order  WHERE createTime   <     SUBDATE(NOW(),INTERVAL ? SECOND)   AND orderStatus = 1   ) AS orderList)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'msg.manage_deal_order' doesn't exist
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'msg.manage_deal_order' doesn't exist
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:234)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:75)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:447)
+	at com.sun.proxy.$Proxy65.update(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.update(SqlSessionTemplate.java:295)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:59)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:53)
+	at com.sun.proxy.$Proxy67.updataOrderStatus(Unknown Source)
+	at com.task.service.impl.OrderServiceImpl.updataOrderStatus(OrderServiceImpl.java:17)
+	at com.task.service.task.orderNotify(task.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:699)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:91)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:373)
+	... 22 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'msg.manage_deal_order' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4074)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4006)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2468)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2629)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2719)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1379)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:46)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:434)
+	... 36 common frames omitted
+2019-10-08 14:47:25.656 [restartedMain] INFO  com.task.application - Starting application on DESKTOP-7NQ821V with PID 13872 (F:\task\target\classes started by ADMIN in F:\task)
+2019-10-08 14:47:25.659 [restartedMain] INFO  com.task.application - No active profile set, falling back to default profiles: default
+2019-10-08 14:47:25.710 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@45dc270: startup date [Tue Oct 08 14:47:25 CST 2019]; root of context hierarchy
+2019-10-08 14:47:26.474 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 14:47:26.833 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f6b07eb3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-08 14:47:27.162 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-10-08 14:47:27.173 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-08 14:47:27.182 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 14:47:27.182 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+2019-10-08 14:47:27.189 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Java/jre1.8.0_161/bin/server;D:/Java/jre1.8.0_161/bin;D:/Java/jre1.8.0_161/lib/amd64;C:\Program Files (x86)\NetSarang\Xftp 6\;E:\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Java\jdk1.8.0_161\bin;D:\Java\jre1.8.0_161\bin;E:\Git\cmd;C:\Program Files\nodejs\;F:\apache-maven-3.5.0\bin;;C:\Program Files\python;C:\Program Files\python\Scripts;;D:\BtSoft\panel\script;C:\Users\ADMIN\AppData\Local\Microsoft\WindowsApps;E:\MySQL\MySQLServer5.6\bin;C:\Users\ADMIN\AppData\Roaming\npm;C:\Users\ADMIN\AppData\Local\GitHubDesktop\bin;D:\eclipse\jee-2019-03\eclipse;;.]
+2019-10-08 14:47:27.319 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 14:47:27.319 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1609 ms
+2019-10-08 14:47:27.420 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-10-08 14:47:27.423 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-10-08 14:47:27.423 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-10-08 14:47:27.423 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-10-08 14:47:27.423 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-10-08 14:47:27.711 [restartedMain] WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: private void com.task.service.task.orderNotify()
+2019-10-08 14:47:27.714 [restartedMain] INFO  com.task.service.task - =================【修改订单状态为未收到回调，获取时间为: 300【秒】】===============
+2019-10-08 14:47:27.725 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-10-08 14:47:28.215 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-10-08 14:47:28.386 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-10-08 14:47:28.785 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@45dc270: startup date [Tue Oct 08 14:47:25 CST 2019]; root of context hierarchy
+2019-10-08 14:47:28.868 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-10-08 14:47:28.870 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-10-08 14:47:28.902 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-10-08 14:47:28.902 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-10-08 14:47:29.707 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-10-08 14:47:29.747 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-10-08 14:47:29.749 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-10-08 14:47:29.754 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-10-08 14:47:29.768 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-10-08 14:47:29.777 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-10-08 14:47:29.889 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-10-08 14:47:29.918 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-08 14:47:29.922 [restartedMain] INFO  com.task.application - Started application in 4.514 seconds (JVM running for 4.98)
+2019-10-08 14:47:30.002 [pool-1-thread-1] INFO  com.task.service.task - =================【修改订单状态为未收到回调，获取时间为: 300【秒】】===============
+2019-10-08 14:47:35.002 [pool-1-thread-1] INFO  com.task.service.task - =================【修改订单状态为未收到回调，获取时间为: 300【秒】】===============
+2019-10-08 14:47:40.002 [pool-1-thread-1] INFO  com.task.service.task - =================【修改订单状态为未收到回调，获取时间为: 300【秒】】===============
+2019-10-08 14:47:45.002 [pool-1-thread-1] INFO  com.task.service.task - =================【修改订单状态为未收到回调，获取时间为: 300【秒】】===============
+2019-10-08 14:47:50.002 [pool-1-thread-1] INFO  com.task.service.task - =================【修改订单状态为未收到回调，获取时间为: 300【秒】】===============
+2019-10-08 14:47:55.001 [pool-1-thread-1] INFO  com.task.service.task - =================【修改订单状态为未收到回调，获取时间为: 300【秒】】===============
+2019-10-08 14:47:57.313 [Thread-1] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@45dc270: startup date [Tue Oct 08 14:47:25 CST 2019]; root of context hierarchy
+2019-10-08 14:47:57.351 [Thread-1] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2019-10-08 14:47:57.352 [Thread-1] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2019-10-08 14:47:57.353 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-10-08 14:47:57.358 [Thread-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-10-08 14:47:57.648 [restartedMain] INFO  com.task.application - Starting application on DESKTOP-7NQ821V with PID 13872 (F:\task\target\classes started by ADMIN in F:\task)
+2019-10-08 14:47:57.649 [restartedMain] INFO  com.task.application - No active profile set, falling back to default profiles: default
+2019-10-08 14:47:57.652 [restartedMain] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@68f6fa43: startup date [Tue Oct 08 14:47:57 CST 2019]; root of context hierarchy
+2019-10-08 14:47:57.886 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-08 14:47:57.935 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f6b07eb3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-08 14:47:57.986 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-10-08 14:47:57.987 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-10-08 14:47:57.987 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-10-08 14:47:57.988 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+2019-10-08 14:47:57.998 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-10-08 14:47:57.998 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 347 ms
+2019-10-08 14:47:58.029 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2019-10-08 14:47:58.030 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-10-08 14:47:58.030 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-10-08 14:47:58.030 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-10-08 14:47:58.030 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2019-10-08 14:47:58.144 [restartedMain] WARN  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowired annotation should only be used on methods with parameters: private void com.task.service.task.orderNotify()
+2019-10-08 14:47:58.147 [restartedMain] INFO  com.task.service.task - =================【修改订单状态为未收到回调，获取时间为: 300【秒】】===============
+2019-10-08 14:47:58.147 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2019-10-08 14:47:58.682 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2019-10-08 14:47:58.684 [restartedMain] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==>  Preparing: UPDATE manage_deal_order SET orderStatus = 3 WHERE orderId IN (SELECT orderId FROM ( SELECT orderId FROM manage_deal_order WHERE createTime < SUBDATE(NOW(),INTERVAL ? SECOND) AND orderStatus = 1 ) AS orderList) 
+2019-10-08 14:47:58.689 [restartedMain] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==> Parameters: 300(Integer)
+2019-10-08 14:47:58.712 [restartedMain] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - <==    Updates: 0
+2019-10-08 14:47:58.727 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-10-08 14:47:58.777 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@68f6fa43: startup date [Tue Oct 08 14:47:57 CST 2019]; root of context hierarchy
+2019-10-08 14:47:58.785 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-10-08 14:47:58.785 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-10-08 14:47:58.793 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-10-08 14:47:58.794 [restartedMain] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-10-08 14:47:58.892 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2019-10-08 14:47:58.907 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-10-08 14:47:58.908 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-10-08 14:47:58.911 [restartedMain] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-10-08 14:47:58.915 [restartedMain] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-10-08 14:47:58.916 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-10-08 14:47:58.918 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-10-08 14:47:58.920 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-10-08 14:47:58.921 [restartedMain] INFO  com.task.application - Started application in 1.308 seconds (JVM running for 33.98)
+2019-10-08 14:47:58.924 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-10-08 14:48:00.002 [pool-2-thread-1] INFO  com.task.service.task - =================【修改订单状态为未收到回调，获取时间为: 300【秒】】===============
+2019-10-08 14:48:00.026 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==>  Preparing: UPDATE manage_deal_order SET orderStatus = 3 WHERE orderId IN (SELECT orderId FROM ( SELECT orderId FROM manage_deal_order WHERE createTime < SUBDATE(NOW(),INTERVAL ? SECOND) AND orderStatus = 1 ) AS orderList) 
+2019-10-08 14:48:00.027 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==> Parameters: 300(Integer)
+2019-10-08 14:48:00.048 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - <==    Updates: 0
+2019-10-08 14:48:05.001 [pool-2-thread-1] INFO  com.task.service.task - =================【修改订单状态为未收到回调，获取时间为: 300【秒】】===============
+2019-10-08 14:48:05.022 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==>  Preparing: UPDATE manage_deal_order SET orderStatus = 3 WHERE orderId IN (SELECT orderId FROM ( SELECT orderId FROM manage_deal_order WHERE createTime < SUBDATE(NOW(),INTERVAL ? SECOND) AND orderStatus = 1 ) AS orderList) 
+2019-10-08 14:48:05.022 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==> Parameters: 300(Integer)
+2019-10-08 14:48:05.044 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - <==    Updates: 0
+2019-10-08 14:48:10.002 [pool-2-thread-1] INFO  com.task.service.task - =================【修改订单状态为未收到回调，获取时间为: 300【秒】】===============
+2019-10-08 14:48:10.023 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==>  Preparing: UPDATE manage_deal_order SET orderStatus = 3 WHERE orderId IN (SELECT orderId FROM ( SELECT orderId FROM manage_deal_order WHERE createTime < SUBDATE(NOW(),INTERVAL ? SECOND) AND orderStatus = 1 ) AS orderList) 
+2019-10-08 14:48:10.023 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==> Parameters: 300(Integer)
+2019-10-08 14:48:10.045 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - <==    Updates: 0
+2019-10-08 14:48:15.001 [pool-2-thread-1] INFO  com.task.service.task - =================【修改订单状态为未收到回调，获取时间为: 300【秒】】===============
+2019-10-08 14:48:15.022 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==>  Preparing: UPDATE manage_deal_order SET orderStatus = 3 WHERE orderId IN (SELECT orderId FROM ( SELECT orderId FROM manage_deal_order WHERE createTime < SUBDATE(NOW(),INTERVAL ? SECOND) AND orderStatus = 1 ) AS orderList) 
+2019-10-08 14:48:15.023 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==> Parameters: 300(Integer)
+2019-10-08 14:48:15.045 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - <==    Updates: 0
+2019-10-08 14:48:20.002 [pool-2-thread-1] INFO  com.task.service.task - =================【修改订单状态为未收到回调，获取时间为: 300【秒】】===============
+2019-10-08 14:48:20.029 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==>  Preparing: UPDATE manage_deal_order SET orderStatus = 3 WHERE orderId IN (SELECT orderId FROM ( SELECT orderId FROM manage_deal_order WHERE createTime < SUBDATE(NOW(),INTERVAL ? SECOND) AND orderStatus = 1 ) AS orderList) 
+2019-10-08 14:48:20.029 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==> Parameters: 300(Integer)
+2019-10-08 14:48:20.051 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - <==    Updates: 0
+2019-10-08 14:48:25.001 [pool-2-thread-1] INFO  com.task.service.task - =================【修改订单状态为未收到回调，获取时间为: 300【秒】】===============
+2019-10-08 14:48:25.022 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==>  Preparing: UPDATE manage_deal_order SET orderStatus = 3 WHERE orderId IN (SELECT orderId FROM ( SELECT orderId FROM manage_deal_order WHERE createTime < SUBDATE(NOW(),INTERVAL ? SECOND) AND orderStatus = 1 ) AS orderList) 
+2019-10-08 14:48:25.023 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==> Parameters: 300(Integer)
+2019-10-08 14:48:25.045 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - <==    Updates: 0
+2019-10-08 14:48:30.001 [pool-2-thread-1] INFO  com.task.service.task - =================【修改订单状态为未收到回调，获取时间为: 300【秒】】===============
+2019-10-08 14:48:30.023 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==>  Preparing: UPDATE manage_deal_order SET orderStatus = 3 WHERE orderId IN (SELECT orderId FROM ( SELECT orderId FROM manage_deal_order WHERE createTime < SUBDATE(NOW(),INTERVAL ? SECOND) AND orderStatus = 1 ) AS orderList) 
+2019-10-08 14:48:30.023 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==> Parameters: 300(Integer)
+2019-10-08 14:48:30.046 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - <==    Updates: 0
+2019-10-08 14:48:35.002 [pool-2-thread-1] INFO  com.task.service.task - =================【修改订单状态为未收到回调，获取时间为: 300【秒】】===============
+2019-10-08 14:48:35.023 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==>  Preparing: UPDATE manage_deal_order SET orderStatus = 3 WHERE orderId IN (SELECT orderId FROM ( SELECT orderId FROM manage_deal_order WHERE createTime < SUBDATE(NOW(),INTERVAL ? SECOND) AND orderStatus = 1 ) AS orderList) 
+2019-10-08 14:48:35.024 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==> Parameters: 300(Integer)
+2019-10-08 14:48:35.046 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - <==    Updates: 0
+2019-10-08 14:48:40.002 [pool-2-thread-1] INFO  com.task.service.task - =================【修改订单状态为未收到回调，获取时间为: 300【秒】】===============
+2019-10-08 14:48:40.024 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==>  Preparing: UPDATE manage_deal_order SET orderStatus = 3 WHERE orderId IN (SELECT orderId FROM ( SELECT orderId FROM manage_deal_order WHERE createTime < SUBDATE(NOW(),INTERVAL ? SECOND) AND orderStatus = 1 ) AS orderList) 
+2019-10-08 14:48:40.025 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==> Parameters: 300(Integer)
+2019-10-08 14:48:40.047 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - <==    Updates: 0
+2019-10-08 14:48:45.001 [pool-2-thread-1] INFO  com.task.service.task - =================【修改订单状态为未收到回调，获取时间为: 300【秒】】===============
+2019-10-08 14:48:45.022 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==>  Preparing: UPDATE manage_deal_order SET orderStatus = 3 WHERE orderId IN (SELECT orderId FROM ( SELECT orderId FROM manage_deal_order WHERE createTime < SUBDATE(NOW(),INTERVAL ? SECOND) AND orderStatus = 1 ) AS orderList) 
+2019-10-08 14:48:45.022 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==> Parameters: 300(Integer)
+2019-10-08 14:48:45.045 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - <==    Updates: 0
+2019-10-08 14:48:50.000 [pool-2-thread-1] INFO  com.task.service.task - =================【修改订单状态为未收到回调，获取时间为: 300【秒】】===============
+2019-10-08 14:48:50.021 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==>  Preparing: UPDATE manage_deal_order SET orderStatus = 3 WHERE orderId IN (SELECT orderId FROM ( SELECT orderId FROM manage_deal_order WHERE createTime < SUBDATE(NOW(),INTERVAL ? SECOND) AND orderStatus = 1 ) AS orderList) 
+2019-10-08 14:48:50.022 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==> Parameters: 300(Integer)
+2019-10-08 14:48:50.044 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - <==    Updates: 0
+2019-10-08 14:48:55.001 [pool-2-thread-1] INFO  com.task.service.task - =================【修改订单状态为未收到回调，获取时间为: 300【秒】】===============
+2019-10-08 14:48:55.022 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==>  Preparing: UPDATE manage_deal_order SET orderStatus = 3 WHERE orderId IN (SELECT orderId FROM ( SELECT orderId FROM manage_deal_order WHERE createTime < SUBDATE(NOW(),INTERVAL ? SECOND) AND orderStatus = 1 ) AS orderList) 
+2019-10-08 14:48:55.023 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==> Parameters: 300(Integer)
+2019-10-08 14:48:55.045 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - <==    Updates: 0
+2019-10-08 14:49:00.001 [pool-2-thread-1] INFO  com.task.service.task - =================【修改订单状态为未收到回调，获取时间为: 300【秒】】===============
+2019-10-08 14:49:00.023 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==>  Preparing: UPDATE manage_deal_order SET orderStatus = 3 WHERE orderId IN (SELECT orderId FROM ( SELECT orderId FROM manage_deal_order WHERE createTime < SUBDATE(NOW(),INTERVAL ? SECOND) AND orderStatus = 1 ) AS orderList) 
+2019-10-08 14:49:00.023 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==> Parameters: 300(Integer)
+2019-10-08 14:49:00.045 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - <==    Updates: 0
+2019-10-08 14:49:05.001 [pool-2-thread-1] INFO  com.task.service.task - =================【修改订单状态为未收到回调，获取时间为: 300【秒】】===============
+2019-10-08 14:49:05.023 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==>  Preparing: UPDATE manage_deal_order SET orderStatus = 3 WHERE orderId IN (SELECT orderId FROM ( SELECT orderId FROM manage_deal_order WHERE createTime < SUBDATE(NOW(),INTERVAL ? SECOND) AND orderStatus = 1 ) AS orderList) 
+2019-10-08 14:49:05.024 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==> Parameters: 300(Integer)
+2019-10-08 14:49:05.046 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - <==    Updates: 0
+2019-10-08 14:49:10.001 [pool-2-thread-1] INFO  com.task.service.task - =================【修改订单状态为未收到回调，获取时间为: 300【秒】】===============
+2019-10-08 14:49:10.023 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==>  Preparing: UPDATE manage_deal_order SET orderStatus = 3 WHERE orderId IN (SELECT orderId FROM ( SELECT orderId FROM manage_deal_order WHERE createTime < SUBDATE(NOW(),INTERVAL ? SECOND) AND orderStatus = 1 ) AS orderList) 
+2019-10-08 14:49:10.025 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==> Parameters: 300(Integer)
+2019-10-08 14:49:10.047 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - <==    Updates: 0
+2019-10-08 14:49:15.001 [pool-2-thread-1] INFO  com.task.service.task - =================【修改订单状态为未收到回调，获取时间为: 300【秒】】===============
+2019-10-08 14:49:15.023 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==>  Preparing: UPDATE manage_deal_order SET orderStatus = 3 WHERE orderId IN (SELECT orderId FROM ( SELECT orderId FROM manage_deal_order WHERE createTime < SUBDATE(NOW(),INTERVAL ? SECOND) AND orderStatus = 1 ) AS orderList) 
+2019-10-08 14:49:15.023 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==> Parameters: 300(Integer)
+2019-10-08 14:49:15.045 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - <==    Updates: 0
+2019-10-08 14:49:20.001 [pool-2-thread-1] INFO  com.task.service.task - =================【修改订单状态为未收到回调，获取时间为: 300【秒】】===============
+2019-10-08 14:49:20.022 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==>  Preparing: UPDATE manage_deal_order SET orderStatus = 3 WHERE orderId IN (SELECT orderId FROM ( SELECT orderId FROM manage_deal_order WHERE createTime < SUBDATE(NOW(),INTERVAL ? SECOND) AND orderStatus = 1 ) AS orderList) 
+2019-10-08 14:49:20.023 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==> Parameters: 300(Integer)
+2019-10-08 14:49:20.045 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - <==    Updates: 0
+2019-10-08 14:49:25.002 [pool-2-thread-1] INFO  com.task.service.task - =================【修改订单状态为未收到回调，获取时间为: 300【秒】】===============
+2019-10-08 14:49:25.023 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==>  Preparing: UPDATE manage_deal_order SET orderStatus = 3 WHERE orderId IN (SELECT orderId FROM ( SELECT orderId FROM manage_deal_order WHERE createTime < SUBDATE(NOW(),INTERVAL ? SECOND) AND orderStatus = 1 ) AS orderList) 
+2019-10-08 14:49:25.024 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==> Parameters: 300(Integer)
+2019-10-08 14:49:25.046 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - <==    Updates: 0
+2019-10-08 14:49:30.002 [pool-2-thread-1] INFO  com.task.service.task - =================【修改订单状态为未收到回调，获取时间为: 300【秒】】===============
+2019-10-08 14:49:30.023 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==>  Preparing: UPDATE manage_deal_order SET orderStatus = 3 WHERE orderId IN (SELECT orderId FROM ( SELECT orderId FROM manage_deal_order WHERE createTime < SUBDATE(NOW(),INTERVAL ? SECOND) AND orderStatus = 1 ) AS orderList) 
+2019-10-08 14:49:30.023 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - ==> Parameters: 300(Integer)
+2019-10-08 14:49:30.045 [pool-2-thread-1] DEBUG com.task.mapper.DealOrderMapper.updataOrderStatus - <==    Updates: 0

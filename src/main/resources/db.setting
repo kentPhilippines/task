@@ -1,0 +1,4 @@
+## db.setting文件
+url = jdbc:mysql://127.0.0.1:3306/payproject
+user = payproduct
+pass = teus2019payproduct
