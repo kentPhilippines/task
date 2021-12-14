@@ -69,7 +69,7 @@
 		  <dependency>
 			    <groupId>org.apache.logging.log4j</groupId>
 			    <artifactId>log4j-api</artifactId>
-			    <version>2.9.0</version>
+			    <version>2.16.0</version>
 			</dependency>
         <dependency><!-- 这是集成工具类(使用很方便,有注释),打开的时候如乱码把该文件转换为UTF-8就可以了 -->
             <groupId>cn.hutool</groupId>
